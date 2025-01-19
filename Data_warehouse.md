@@ -716,13 +716,9 @@ order by transaction_id
     - Target schema: `core`
     - Target table: `sales` 
     - 1
-      - Table field: payment
+      - Table field: transaction_id
       - Comparator: =
-      - Stream field1: payment
-    - 2
-      - Table field: loyalty_card
-      - Comparator: =
-      - Stream field1: loyalty_card
+      - Stream field1: transaction_id
 11. กดปุ่ม Get update fields
 12. เปลี่ยน Transaction_id Update เป็น N
 13. กดปุ่ม OK
@@ -743,7 +739,7 @@ order by transaction_id
 4. กดปุ่ม OK
 5. เลือก Transformation
     - Entry Name: `fact_sale`
-    - Transformation: `file:///home/tomcat/pdi/Load_sale.ktr`
+    - Transformation: `file:///home/tomcat/pdi/Load_fact_sale.ktr`
 6. กดปุ่ม OK
 7. Save
     - Filename: `file:///home/tomcat/pdi/Full_ETL`
