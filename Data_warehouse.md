@@ -670,7 +670,6 @@ SELECT
 	transaction_id ,
 	transactional_date ,
 	EXTRACT(year from transactional_date)*10000 + EXTRACT('month' from transactional_date)*100+EXTRACT('day' from transactional_date)as 	transactional_date_fk,
-	f.product_id ,
 	p.product_PK as product_FK,
 	payment_PK as payment_FK,
     customer_id as customer_fk,
