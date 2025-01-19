@@ -727,7 +727,7 @@ order by transaction_id
 12. เปลี่ยน Transaction_id Update เป็น N
 13. กดปุ่ม OK
 14. Save
-    - Filename: `file:///home/tomcat/pdi/Load_sale`
+    - Filename: `file:///home/tomcat/pdi/Load_fact_sale`
 15. Run
 
 ### Integrated
